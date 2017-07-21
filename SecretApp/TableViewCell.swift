@@ -19,7 +19,8 @@ class TableViewCell: UITableViewCell {
     func setup(model: Model) {
         titleLabel.text = model.title
         subtitleLabel.text = model.subTitle
-        cellImageView.image = model.image
+        let tintImage = model.image?.tint(with: UIColor.white)
+        cellImageView.image = tintImage
         data1Label.text = model.data1
         data2Label.text = model.data2
     }
