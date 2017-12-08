@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6D4D2D1FDAAA72002179B4 /* testgit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D4D2C1FDAAA72002179B4 /* testgit.swift */; };
 		369D02B51EFB792A000D5B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D02B41EFB792A000D5B88 /* AppDelegate.swift */; };
 		369D02B81EFB792A000D5B88 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D02B71EFB792A000D5B88 /* Model.swift */; };
 		369D02BA1EFB792A000D5B88 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D02B91EFB792A000D5B88 /* Data.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C6D4D2C1FDAAA72002179B4 /* testgit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testgit.swift; sourceTree = "<group>"; };
 		369D02B11EFB792A000D5B88 /* SecretApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369D02B41EFB792A000D5B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		369D02B71EFB792A000D5B88 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				369D02B61EFB792A000D5B88 /* Model */,
 				369D02BE1EFB792A000D5B88 /* View */,
 				369D02C31EFB792A000D5B88 /* Controller */,
+				2C6D4D2C1FDAAA72002179B4 /* testgit.swift */,
 			);
 			path = SecretApp;
 			sourceTree = "<group>";
@@ -229,7 +232,7 @@
 				TargetAttributes = {
 					369D02B01EFB792A000D5B88 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8733C25WNR;
+						DevelopmentTeam = 3NUGMBUK6C;
 						ProvisioningStyle = Automatic;
 					};
 					369D02CF1EFB792A000D5B88 = {
@@ -301,6 +304,7 @@
 			files = (
 				369D02C51EFB792A000D5B88 /* ViewController.swift in Sources */,
 				369D02B51EFB792A000D5B88 /* AppDelegate.swift in Sources */,
+				2C6D4D2D1FDAAA72002179B4 /* testgit.swift in Sources */,
 				369D02C21EFB792A000D5B88 /* TableViewCell.swift in Sources */,
 				369D02BA1EFB792A000D5B88 /* Data.swift in Sources */,
 				369D02B81EFB792A000D5B88 /* Model.swift in Sources */,
@@ -455,7 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8733C25WNR;
+				DEVELOPMENT_TEAM = 3NUGMBUK6C;
 				INFOPLIST_FILE = SecretApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vankien.SecretApp;
@@ -468,7 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8733C25WNR;
+				DEVELOPMENT_TEAM = 3NUGMBUK6C;
 				INFOPLIST_FILE = SecretApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vankien.SecretApp;
@@ -554,6 +558,7 @@
 				369D02E61EFB792A000D5B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		369D02E71EFB792A000D5B88 /* Build configuration list for PBXNativeTarget "SecretAppTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +567,7 @@
 				369D02E91EFB792A000D5B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		369D02EA1EFB792A000D5B88 /* Build configuration list for PBXNativeTarget "SecretAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +576,7 @@
 				369D02EC1EFB792A000D5B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
